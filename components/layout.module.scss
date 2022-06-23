@@ -1,0 +1,12 @@
+@import 'styles/variables';
+@import 'styles/palette';
+
+.container {
+    min-height: 100vh;
+
+    background-color: $background-secondary;
+
+    @media (max-width: $mobile-width) {
+        min-width: $min-width;
+    }
+}

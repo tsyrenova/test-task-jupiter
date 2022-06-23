@@ -1,0 +1,65 @@
+@import 'styles/variables';
+@import 'styles/palette';
+
+.catalogList {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax($min-card-width, $max-card-width)
+    );
+
+    justify-content: center;
+
+    margin-bottom: 80px;
+
+    @media (max-width: $mobile-width) {
+        display: block;
+
+        width: $min-card-width;
+        margin: 0 auto 50px;
+    }
+}
+
+.card {
+    width: $max-card-width;
+    height: 416px;
+    padding: 255px 0 0 50px;
+
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: top 0 left 0;
+    background-size: contain;
+
+    @media (max-width: $mobile-width) {
+        width: $min-card-width;
+        margin: 0 auto 30px;
+        padding-left: 30px;
+    }
+}
+
+.activeCard {
+    outline: 7px solid $outline-primary;
+}
+
+.cardButton {
+    display: inline-block;
+
+    margin-bottom: 25px;
+    padding: 9px 19px 8px;
+
+    color: $text-tertiary;
+    border-radius: 19px;
+    background-color: $background-tertiary;
+}
+
+.cardTitle {
+    margin: 0;
+    padding: 0;
+
+    color: $text-primary;
+
+    font-size: $font-size-l;
+    font-weight: $extra-bold;
+    line-height: $line-height-l;
+}

@@ -1,0 +1,35 @@
+@import 'palette';
+
+/* Viewports */
+$viewport-s: 360px;
+$viewport-sm: 576px;
+$viewport-m: 768px;
+$viewport-l: 1040px;
+
+/* Font size */
+$font-size-xs: 14px;
+$font-size-s: 16px;
+$font-size-m: 24px;
+$font-size-l: 40px;
+$font-size-xl: 56px;
+$font-size-xxl: 72px;
+
+/* Font weight */
+$regular: 400;
+$bold: 700;
+$extra-bold: 800;
+$black: 900;
+
+/* Line height */
+$line-height-s: 14px;
+$line-height-m: 32px;
+$line-height-l: 48px;
+$line-height-xl: 80px;
+
+/* Widths */
+$mobile-width: 1040px;
+$min-width: 375px;
+$max-width: 1440px;
+$min-card-width: 330px;
+$max-card-width: 370px;
+$max-catalog-width: 1795px;

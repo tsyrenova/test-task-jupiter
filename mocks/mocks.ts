@@ -1,0 +1,155 @@
+import { Card } from "@/types/index";
+import { Filter } from "@/constants/constants";
+
+export const mockCards: Card[] = [
+  {
+    id: 1,
+    image: "/KeyBoard.png",
+    type: Filter.MOTION,
+    title: "Sofa",
+  },
+  {
+    id: 2,
+    image: "/KeyBoard.png",
+    type: Filter.BRANDING,
+    title: "KeyBoard",
+  },
+  {
+    id: 3,
+    image: "/KeyBoard.png",
+    type: Filter.ILLUSTRATION,
+    title: "Work Media",
+  },
+  {
+    id: 4,
+    image: "/Abstract.png",
+    type: Filter.MOTION,
+    title: "DDDone",
+  },
+  {
+    id: 5,
+    image: "/Abstract.png",
+    type: Filter.DESIGN,
+    title: "Abstract",
+  },
+  {
+    id: 6,
+    image: "/HandP.png",
+    type: Filter.BRANDING,
+    title: "HandP",
+  },
+  {
+    id: 7,
+    image: "/Architect.png",
+    type: Filter.MOTION,
+    title: "Architect",
+  },
+  {
+    id: 8,
+    image: "/CalC.png",
+    type: Filter.DESIGN,
+    title: "CalC",
+  },
+  {
+    id: 9,
+    image: "/Sport.png",
+    type: Filter.BRANDING,
+    title: "Sport",
+  },
+  {
+    id: 10,
+    image: "/Abstract.png",
+    type: Filter.DESIGN,
+    title: "Sofa2",
+  },
+  {
+    id: 11,
+    image: "/KeyBoard.png",
+    type: Filter.BRANDING,
+    title: "KeyBoard2",
+  },
+  {
+    id: 12,
+    image: "/KeyBoard.png",
+    type: Filter.ILLUSTRATION,
+    title: "Work Media2",
+  },
+  {
+    id: 13,
+    image: "/Abstract.png",
+    type: Filter.MOTION,
+    title: "DDDone2",
+  },
+  {
+    id: 14,
+    image: "/Abstract.png",
+    type: Filter.DESIGN,
+    title: "Abstract2",
+  },
+  {
+    id: 15,
+    image: "/HandP.png",
+    type: Filter.BRANDING,
+    title: "HandP2",
+  },
+  {
+    id: 16,
+    image: "/Architect.png",
+    type: Filter.MOTION,
+    title: "Architect2",
+  },
+  {
+    id: 17,
+    image: "/CalC.png",
+    type: Filter.DESIGN,
+    title: "CalC2",
+  },
+  {
+    id: 18,
+    image: "/Sport.png",
+    type: Filter.BRANDING,
+    title: "Sport2",
+  },
+  {
+    id: 19,
+    image: "/KeyBoard.png",
+    type: Filter.ILLUSTRATION,
+    title: "Work Media2",
+  },
+  {
+    id: 20,
+    image: "/HandP.png",
+    type: Filter.MOTION,
+    title: "DDDone3",
+  },
+  {
+    id: 21,
+    image: "/Abstract.png",
+    type: Filter.DESIGN,
+    title: "Abstract3",
+  },
+  {
+    id: 22,
+    image: "/HandP.png",
+    type: Filter.BRANDING,
+    title: "HandP3",
+  },
+  {
+    id: 23,
+    image: "/Architect.png",
+    type: Filter.MOTION,
+    title: "Architect3",
+  },
+  {
+    id: 24,
+    image: "/CalC.png",
+    type: Filter.DESIGN,
+    title: "CalC3",
+  },
+  {
+    id: 25,
+    image: "/Sport.png",
+    type: Filter.BRANDING,
+    title: "Sport3",
+  },
+];

@@ -1,0 +1,23 @@
+@import 'styles/variables';
+@import 'styles/palette';
+
+.catalogMore {
+    display: flex;
+}
+
+.catalogButton {
+    margin: 0 auto;
+    padding: 15px 45px 12px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: $text-tertiary;
+    border-radius: 6px;
+    background-color: $background-tertiary;
+    box-shadow: 0 3px 5px rgb(57 20 0 / 8%);
+
+    font-size: $font-size-xs;
+    font-weight: $black;
+    line-height: $line-height-s;
+}

@@ -1,0 +1,24 @@
+@import 'styles/palette';
+
+.catalogFilterList {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+
+    max-width: 560px;
+    margin: 0 auto;
+}
+
+.catalogFilterItem {
+    cursor: pointer;
+
+    color: $text-tertiary;
+
+    &:hover {
+        color: $battletoad;
+    }
+}
+
+.activeFilter {
+    color: $battletoad;
+}
